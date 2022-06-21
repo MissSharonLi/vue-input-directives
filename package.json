@@ -1,6 +1,6 @@
 {
-  "name": "vue-input-directives",
-  "version": "1.0.1",
+  "name": "vue-input-limits",
+  "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
   "scripts": {
