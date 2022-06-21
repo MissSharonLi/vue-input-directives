@@ -1,5 +1,7 @@
 #[源码 GIT 地址](https://github.com/MissSharonLi/vue-input-limited)
 
+#[npm 地址](https://www.npmjs.com/package/vue-input-limited)
+
 #用法
 
 `npm install vue-input-limited --save`
