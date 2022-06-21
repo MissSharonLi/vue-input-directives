@@ -1,12 +1,12 @@
-#[源码 GIT 地址](https://github.com/MissSharonLi/vue-input-limits)
+#[源码 GIT 地址](https://github.com/MissSharonLi/vue-input-limited)
 
 #用法
 
-`npm install vue-input-limits --save`
+`npm install vue-input-limited --save`
 
 ```
 import Vue from vue
-import directives from 'vue-input-limits'
+import directives from 'vue-input-limited'
 Vue.use(directives)
 ```
 
