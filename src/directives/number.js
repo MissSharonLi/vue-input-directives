@@ -2,7 +2,7 @@ import { ToDBC } from '@utils'
 export default {
   install(Vue) {
     /**
-     * @description 文本输入框限制输输入0、正整数
+     * @description 0、正整数
      * @author zmq
      * @date 2021-05-27
      * @export v-num-val

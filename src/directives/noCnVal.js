@@ -2,7 +2,7 @@ import { ToDBC } from '@utils'
 export default {
   install(Vue) {
     /**
-     * @description 文本输入框限制不能输入中文
+     * @description 不能输入中文
      * @author zmq
      * @date 2021-05-27
      * @export v-no-cn-val

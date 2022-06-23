@@ -12,13 +12,13 @@ import directives from 'vue-input-limited'
 Vue.use(directives)
 ```
 
-1.v-num-init(限制输入正整数)
+1.v-num-init(正整数)
 
 ```
 <el-input v-model="value" v-num-init></el-input>
 ```
 
-2.v-number(限制输入 0、正整数)
+2.v-number(0、正整数)
 
 ```
 <el-input v-model="value" v-number></el-input>
@@ -35,16 +35,14 @@ Vue.use(directives)
 4.v-no-cn-val(限制不能输入中文)
 
 ```
-// 保留4位小数、其他位数依次类推
 <el-input v-model="value" v-no-cn-val></el-input>
 
 ```
 
 #提示
-如果已经安装vue-input-limited，但在main.js中引用时vscode提示报错信息如下：
+如果已经安装 vue-input-limited，但在 main.js 中引用时 vscode 提示报错信息如下：
 
 <img width="814" alt="image" src="https://user-images.githubusercontent.com/41463466/175257481-8cf3141e-0fa8-41ff-a95c-a143b50efd35.png">
 
 解决办法：
-在src文件目录下创建一个 shime-vue.d.ts文件，在里面写入```declare module 'vue-input-limited'``` 即可
-
+在 src 文件目录下创建一个 shime-vue.d.ts 文件，在里面写入`declare module 'vue-input-limited'` 即可

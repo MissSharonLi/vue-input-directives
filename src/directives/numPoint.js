@@ -2,7 +2,7 @@ import { ToDBC } from '@utils'
 export default {
   install(Vue) {
     /**
-     * @description 文本输入框限制输入小数 默认保留2位小数
+     * @description 小数 默认保留2位小数
      * @author zmq
      * @date 2021-05-27
      * @export v-num-point
