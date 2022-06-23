@@ -29,14 +29,12 @@ Vue.use(directives)
 ```
 // 保留4位小数、其他位数依次类推
 <el-input v-model="value" v-num-point="4"></el-input>
-
 ```
 
 4.v-no-cn-val(不能输入中文)
 
 ```
 <el-input v-model="value" v-no-cn-val></el-input>
-
 ```
 
 #提示
