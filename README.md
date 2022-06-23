@@ -39,3 +39,12 @@ Vue.use(directives)
 <el-input v-model="value" v-no-cn-val></el-input>
 
 ```
+
+#提示
+如果已经安装vue-input-limited，但在main.js中引用时vscode提示报错信息如下：
+
+<img width="814" alt="image" src="https://user-images.githubusercontent.com/41463466/175257481-8cf3141e-0fa8-41ff-a95c-a143b50efd35.png">
+
+解决办法：
+在src文件目录下创建一个 shime-vue.d.ts文件，在里面写入```declare module 'vue-input-limited'``` 即可
+
