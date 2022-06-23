@@ -32,7 +32,7 @@ Vue.use(directives)
 
 ```
 
-4.v-no-cn-val(限制不能输入中文)
+4.v-no-cn-val(不能输入中文)
 
 ```
 <el-input v-model="value" v-no-cn-val></el-input>
