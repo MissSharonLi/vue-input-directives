@@ -7,7 +7,7 @@ export default {
      * @date 2021-05-27
      * @export v-num-init
      */
-    Vue.directive('numVal', {
+    Vue.directive('numInit', {
       inserted: (el) => {
         let lock = false
         const input = el.querySelector('.el-input__inner') || el
